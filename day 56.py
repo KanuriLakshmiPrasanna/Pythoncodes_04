@@ -32,93 +32,9 @@ Test case 1: There is only one episode, so there is 1 odd-indexed episode, and 0
 =0⋅A+1⋅B=0⋅2+1⋅2=2.
 
 Test case 2: There are two episodes with indices 
-{1,2}. Thus, there is 1 odd-indexed episode 
-(
-{
-1
-}
-)
-({1}), and 
-1
-1 even-indexed episode 
-(
-{
-2
-}
-)
-({2}). The total duration of the season 
-=
-1
-⋅
-A
-+
-1
-⋅
-B
-=
-1
-⋅
-3
-+
-1
-⋅
-4
-=
-7
-=1⋅A+1⋅B=1⋅3+1⋅4=7.
+{1,2}. Thus, there is 1 odd-indexed episode({1}), and 1 even-indexed episode ({2}). The total duration of the season =1⋅A+1⋅B=1⋅3+1⋅4=7.
 
-Test case 
-3
-3: There are four episodes with indices 
-{
-1
-,
-2
-,
-3
-,
-4
-}
-{1,2,3,4}. Thus, there are 
-2
-2 odd-indexed episodes 
-(
-{
-1
-,
-3
-}
-)
-({1,3}), and 
-2
-2 even-indexed episodes 
-(
-{
-2
-,
-4
-}
-)
-({2,4}). The total duration of the season 
-=
-2
-⋅
-A
-+
-2
-⋅
-B
-=
-2
-⋅
-20
-+
-2
-⋅
-30
-=
-100
-=2⋅A+2⋅B=2⋅20+2⋅30=100.'''
+Test case 3: There are four episodes with indices {1,2,3,4}. Thus, there are 2 odd-indexed episodes ({1,3}), and 2 even-indexed episodes ({2,4}). The total duration of the season =2⋅A+2⋅B=2⋅20+2⋅30=100.'''
 T = int(input())  # Number of test cases
 
 for _ in range(T):
